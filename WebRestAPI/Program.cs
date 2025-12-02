@@ -17,7 +17,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UserSwaggerUI();
+    app.UseSwaggerUI();
     app.MapOpenApi();
 }
 
